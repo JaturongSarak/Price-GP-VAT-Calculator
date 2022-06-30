@@ -25,7 +25,6 @@ gp_entry.grid(column=1, row=0, padx=10, pady=5)
 vat_entry.grid(column=1, row=1, padx=10, pady=5)
 price_entry.grid(column=1, row=2, padx=10, pady=5)
 
-
 #App
 def start():
     gp = float(gp_entry.get())
